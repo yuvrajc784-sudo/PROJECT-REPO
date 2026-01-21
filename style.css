@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    height: 60px;
+    max-width: 100%;
+    display: flex;
+    background-color: #131921;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 114px;
+}
+
+.logo {
+    background-image: url(/PROJECT-1/amazonlogo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 4px;
+    height: 50px;
+    align-content: center;
+    padding: 0px 9px 0px 9px;
+}
+
+.border:hover {
+    border-color: white;
+}
+
+.nav-address {
+    align-items: center;
+    height: 50px;
+    align-content: center;
+    
+}
+
+.address-1 {
+    color: #cccccc;
+    font-size: 0.77rem;
+    margin-left: 15px;
+}
+
+.address-2 {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.address-icon {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar {
+    display: flex;
+    height: 40px;
+    width: 900px;
+}
+
+.search-select {
+    width: 51.6px;
+    font-size: 0.8rem;
+    color:  #555555;
+    background-color: #e6e6e6;
+    border-right: 1px solid #cdcdcd;
+    border-radius: 4px 0px 0px 4px;
+    text-align: center;
+    border: none;
+}
+
+.search-select:hover {
+    background-color: #d4d4d4;
+    color: black;
+}
+
+.search-select:focus {
+    border: 3.1px solid #ff9900;
+    outline: none;
+    box-shadow: none;
+}
+
+input {
+    width: 100%;
+    font-size: 0.96rem;
+    padding-left: 7px;
+    border: none;
+    box-shadow: none;
+    outline: none;
+
+}
+
+.search-logo{
+    width: 50px;
+    background-color: #febd69;
+    color: #333333;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 4px 4px 0px;
+}
+.search-logo:hover {
+    background-color: #f3a847;
+}
+.search-logo:active {
+    border: 3.1px solid #ff9900;
+}
+.lang {
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    border: transparent;
+    width: 40px;
+}
+.lang:focus {
+    box-shadow: none;
+    outline: none;
+}
+.line1{
+    font-size: 0.8rem;
+}
+.line2{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.cartlogo {
+    font-size: 1.9rem;
+}
+.panel {
+    height: 39px;
+    max-width: 100%;
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.panel-ops {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.border2 {
+    border: 1.5px solid transparent;
+    padding: 9px;
+}
+.border2:hover {
+    border-color: white;
+}
+.panel-all {
+    padding-left: 15px;
+    
+}
